@@ -1,0 +1,22 @@
+/* This file has been placed in the public domain. */
+
+/* required to make the slide show run at all */
+@import url(s5-core.css);
+
+/* sets basic placement and size of slide components */
+@import url(framing.css);
+
+/* Normalize the browser using the normalize script */
+/* @import url(normalize.css); */
+
+/* Layouts - sets a number of preset layout configurations that can be
+used by setting the html element's class */
+@import url(layout.css);
+
+/* Styles contains all the styling information */
+@import url(styles.css);
+/* @import url(pretty.css); */
+
+/* Syntax highlighting - loads a css file with syntax highlighting for
+the Pygmentized html*/
+@import url(syntax.css);

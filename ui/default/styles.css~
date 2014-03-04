@@ -1,0 +1,183 @@
+/* set the colour palette */
+@import url(colours.css);
+
+/* GLOBALS */
+* {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+html, body {
+    margin: 0; 
+    padding: 0;
+}
+
+body {
+    background: white; 
+    color: black;
+}
+
+/* ELEMENTS */
+
+/* Headings */
+
+h1, h2, h3, h4 {
+    font-family: Cambria, Times, Serif
+}
+
+h1 {
+    font-size: 1.6em;
+    margin: 0; 
+    padding: 0; 
+    font-weight: inherit;
+    border-bottom: 1px dashed grey; 
+}
+
+h2, h3, h4 {
+    font-size: 1.1em;
+}
+
+h1 abbr {
+    font-variant: small-caps;
+}
+
+#footer h2 {
+    font-size: 0.4em;
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+}
+
+/* Text */
+
+p, ul > li {
+	font-family: Tahoma;
+}
+
+tt, pre {
+    font-family: Monaco;
+    background: #DFDFDF;
+}
+
+/* Lists */
+
+ul > li {
+    padding-bottom: 40px;
+}
+
+ul.simple, li,simple {
+    padding-bottom: 40px;
+}
+
+/* Containers */
+
+.container.compare-left  {
+    float: left;
+    width: 50%;
+}
+
+.container.compare-right  {
+    float: right;
+    width: 50%;
+}
+
+
+/* Images */
+img {
+    display: block;
+    margin: 0 auto;
+    height: 14em;
+    padding: 20px;
+}
+
+/* Section Slide */
+
+div.break {
+    background: #00C top middle;
+}
+
+
+div.break > h1, div.break > p {
+    text-align: center;
+}
+
+div.section > h1, div.break > h1  {
+    font-size: 2em;
+    padding-top: 10%;
+}
+
+/* Tables */
+
+td, th {
+    padding: 10px 20px;
+}
+
+col {
+    width: 50%;
+}
+
+table {
+    width: 60%;
+    margin: 0 auto;
+    border: 0;
+}
+
+/* Quotes */
+blockquote {
+    padding: 0 2em 0.5em; 
+    margin: 0 1.5em 0.5em;
+}
+
+blockquote p {
+    margin: 0;
+}
+
+/* Misc */
+
+kbd {
+    font-weight: bold; 
+    font-size: 1em;
+}
+
+sup {
+    font-size: smaller; 
+    line-height: 1px;
+}
+
+
+/* Pseudos */
+:link, :visited {
+    text-decoration: none; 
+    color: #00C;
+}
+
+#controls :active {
+    color: #88A !important;
+}
+
+#controls :focus {
+    outline: 1px dotted #227;
+}
+
+/* Classes */
+
+.latex {
+    font-family: Times, "Times New Roman";
+    letter-spacing: 1px;
+}
+
+.latex sup { 
+    text-transform: uppercase; 
+    letter-spacing: 1px;
+    font-size: 0.85em; 
+    vertical-align: 0.15em; 
+    margin-left: -0.36em;
+    margin-right: -0.15em; 
+}
+
+.latex sub {
+    text-transform: uppercase;
+    vertical-align: -0.5ex;
+    margin-left: -0.1667em;
+    margin-right: -0.125em;
+    font-size: 1em;
+}

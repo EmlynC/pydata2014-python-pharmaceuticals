@@ -1,0 +1,6 @@
+
+/* Classes */
+
+.float-right {
+    float:right;
+}
